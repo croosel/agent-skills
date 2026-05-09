@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-04T10:00:00Z",
+  "interaction": {
+    "response_style": { "value": "Business professional", "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z" },
+    "language": { "value": "Chinese/English", "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z" }
+  },
+  "product_listing": {
+    "image_preference": { "value": "Lifestyle, Sunny, Outdoor, Realistic", "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z" },
+    "title_style": { "value": "SEO Optimized, 128 chars max", "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z" }
+  },
+  "sourcing": {
+    "moq_tolerance": { "value": "50pcs", "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z" }
+  }
+}

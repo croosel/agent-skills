@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-04T10:00:00Z",
+  "slots": {
+    "business_name": { "label": "业务名称", "value": "PawCore", "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z", "source": "conversation" },
+    "platform": { "label": "经营平台", "value": "Alibaba.com", "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z", "source": "conversation" },
+    "categories": { "label": "主营品类", "value": ["Pet Supplies", "Slow Feeders", "Eco Wipes", "Poop Bags"], "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z", "source": "conversation" },
+    "target_markets": { "label": "目标市场", "value": ["North America", "USA"], "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z", "source": "conversation" },
+    "strengths": { "label": "核心优势", "value": ["12-year family heritage", "400,000 sqm manufacturing base", "Supply Chain Direct"], "confidence": "explicit", "updatedAt": "2026-05-04T10:00:00Z", "source": "conversation" },
+    "pain_points": { "label": "业务痛点", "value": ["High MOQs from competitors", "Complex cross-border logistics"], "confidence": "inferred", "updatedAt": "2026-05-04T10:00:00Z", "source": "conversation" }
+  }
+}

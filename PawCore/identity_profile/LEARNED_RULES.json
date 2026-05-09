@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-04T10:00:00Z",
+  "rules": [
+    {
+      "id": "rule-pawcore-001",
+      "rule": "发品时主图第 5、6 张必须固定为指定的品牌转化图 (US Stock & Chat Now)",
+      "context": "product_listing",
+      "source": "Merchant SOP",
+      "createdAt": "2026-05-04T10:00:00Z",
+      "reinforceCount": 1,
+      "lastTriggeredAt": "2026-05-04T10:00:00Z"
+    },
+    {
+      "id": "rule-pawcore-002",
+      "rule": "详情页文案必须包含 'Rui Rui family 12-year heritage' 背书",
+      "context": "product_listing",
+      "source": "Brand alignment",
+      "createdAt": "2026-05-04T10:00:00Z",
+      "reinforceCount": 1,
+      "lastTriggeredAt": "2026-05-04T10:00:00Z"
+    }
+  ]
+}

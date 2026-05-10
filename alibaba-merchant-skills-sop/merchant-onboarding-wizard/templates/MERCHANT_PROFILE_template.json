@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "created_by": "merchant-onboarding-wizard",
+    "created_for": "大勛 (Daxun)",
+    "last_updated": null
+  },
+  "brand_name": null,
+  "store_url": null,
+  "member_id": null,
+  "platform": "alibaba.com",
+  "main_category": {
+    "name": null,
+    "cate_id": null,
+    "sub_categories": []
+  },
+  "target_markets": {
+    "primary": null,
+    "secondary": []
+  },
+  "languages": [],
+  "core_advantages": [],
+  "business_scale": {
+    "monthly_orders": null,
+    "monthly_gmv_usd": null,
+    "team_size": null,
+    "years_in_business": null
+  },
+  "target_customers": [],
+  "logistics": {
+    "warehouses": [],
+    "shipping_templates": []
+  },
+  "operational_pain_points": [],
+  "competitive_positioning": null,
+  "_notes_for_ai": "此 profile 在每次会话开始时自动加载到上下文。所有 AI 回复必须基于此画像个性化。当用户透露新业务信息时，静默 update 此文件，不要打断对话。"
+}

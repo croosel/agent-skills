@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "purpose": "Master profile for brand-wide assets that all SKUs inherit",
+    "created_for": "大勛 (Daxun)",
+    "last_updated": null
+  },
+
+  "brand_assets": {
+    "logo_url": null,
+    "brand_colors": {
+      "primary": null,
+      "secondary": null,
+      "accent": null
+    },
+    "brand_voice": {
+      "tone": null,
+      "key_phrases": [],
+      "forbidden_words": []
+    }
+  },
+
+  "shared_messaging": {
+    "us_warehouse": {
+      "location": null,
+      "delivery_promise": null,
+      "marketing_copy_en": null,
+      "marketing_copy_es": null
+    },
+    "factory_direct": {
+      "marketing_copy_en": null,
+      "marketing_copy_es": null
+    },
+    "moq_policy": {
+      "default_moq": null,
+      "sample_order_available": true,
+      "sample_lead_time_days": null
+    }
+  },
+
+  "brand_hooks": {
+    "hook_01": {
+      "file": "_brand_hooks/hook_01_amazon_seller.jpg",
+      "target_audience": "SMB Retailers + Amazon FBA Sellers",
+      "core_message": "Factory Direct + US Office + US Warehouse + Free Samples",
+      "cta": "CHAT NOW",
+      "rating": "10/10",
+      "use_in_slots": [5]
+    },
+    "hook_02": {
+      "file": "_brand_hooks/hook_02_one_stop.jpg",
+      "target_audience": "Wedding Planners + Wholesale Buyers",
+      "core_message": "1 Supplier + 1 Shipment + 1 Invoice + 5000+ SKUs",
+      "rating": "10/10",
+      "use_in_slots": [6]
+    },
+    "hook_03": {
+      "file": "_brand_hooks/hook_03_oem_odm.jpg",
+      "target_audience": "Brand Builders + Premium Customers",
+      "core_message": "OEM/ODM + Build Your Own Brand + MOQ 100",
+      "rating": "10/10",
+      "use_in_slots": [10]
+    }
+  },
+
+  "hts_codes_by_category": {
+    "_description": "Pre-mapped HTS codes for common categories",
+    "party_decoration": {
+      "hts": "9505.90.6000",
+      "tariff_rate": 0.075
+    },
+    "wedding_decoration": {
+      "hts": "9505.90.6000",
+      "tariff_rate": 0.075
+    },
+    "balloons": {
+      "hts": "9503.00.0080",
+      "tariff_rate": 0.0
+    }
+  },
+
+  "warehouse_costs": {
+    "ny_3pl": {
+      "monthly_fixed_usd": 500,
+      "per_unit_storage_usd": 0.5,
+      "fulfillment_per_order_usd": 3.5
+    }
+  },
+
+  "_inheritance_rules": "All SKU manifests should inherit shared_messaging and brand_hooks. SKU-specific data overrides only when necessary."
+}

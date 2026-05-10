@@ -1,0 +1,223 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "created_by": "cross-border-launch-sop",
+    "created_for": "大勛 (Daxun)",
+    "created_at": null,
+    "last_updated": null,
+    "status": "draft"
+  },
+
+  "product": {
+    "slug": null,
+    "internal_name": null,
+    "category_path": [],
+    "main_cate_id": null,
+    "amazon_reference_asin": null
+  },
+
+  "title": {
+    "en_US": null,
+    "es_MX": null,
+    "_constraints": "≤ 190 chars per language"
+  },
+
+  "keywords": {
+    "en_US": {
+      "short_tail": null,
+      "long_tail_1": null,
+      "long_tail_2": null
+    },
+    "es_MX": {
+      "short_tail": null,
+      "long_tail_1": null,
+      "long_tail_2": null
+    }
+  },
+
+  "bullet_points": {
+    "en_US": ["", "", "", "", "", ""],
+    "es_MX": ["", "", "", "", "", ""],
+    "_structure": [
+      "1. Quantity Value",
+      "2. Material Quality",
+      "3. Easy Setup",
+      "4. Versatility",
+      "5. Visual Impact",
+      "6. Service Guarantee"
+    ]
+  },
+
+  "specifications": {
+    "pieces_per_set": null,
+    "serves_people": null,
+    "weight_grams": null,
+    "dimensions_cm": null,
+    "volumetric_weight_kg": null,
+    "material": null,
+    "color_variants": []
+  },
+
+  "pricing": {
+    "production_cost_usd": null,
+    "target_gross_margin": 0.80,
+    "tiers": [
+      {
+        "tier": 1,
+        "moq_min": 30,
+        "moq_max": 99,
+        "price_usd": null,
+        "fob_margin": null,
+        "warehouse_margin": null,
+        "status": null
+      },
+      {
+        "tier": 2,
+        "moq_min": 100,
+        "moq_max": 299,
+        "price_usd": null,
+        "fob_margin": null,
+        "warehouse_margin": null,
+        "status": null
+      },
+      {
+        "tier": 3,
+        "moq_min": 300,
+        "moq_max": null,
+        "price_usd": null,
+        "fob_margin": null,
+        "warehouse_margin": null,
+        "status": null
+      }
+    ]
+  },
+
+  "logistics": {
+    "shipping_template_id": null,
+    "warehouse_location": null,
+    "delivery_days": null,
+    "hts_code": null,
+    "tariff_rate": null,
+    "ddp_landed_cost_usd": null
+  },
+
+  "compliance": {
+    "cpc_status": null,
+    "cpsia_status": null,
+    "certifications": []
+  },
+
+  "image_assets": [
+    {
+      "slot": 1,
+      "type": "main_white_bg",
+      "file": "images/01_main_white_bg.jpg",
+      "status": "PENDING",
+      "rating": null
+    },
+    {
+      "slot": 2,
+      "type": "lifestyle_scene",
+      "file": "images/02_lifestyle_scene.jpg",
+      "status": "PENDING",
+      "rating": null
+    },
+    {
+      "slot": 3,
+      "type": "material_spec",
+      "file": "images/03_material_spec.jpg",
+      "status": "PENDING",
+      "rating": null
+    },
+    {
+      "slot": 4,
+      "type": "usp_infographic",
+      "file": "images/04_usp_infographic.jpg",
+      "status": "PENDING",
+      "rating": null
+    },
+    {
+      "slot": 5,
+      "type": "conversion_hook",
+      "file": "_brand_hooks/hook_01_amazon_seller.jpg",
+      "status": "REUSE_FROM_BRAND_HOOKS",
+      "rating": null
+    }
+  ],
+
+  "detail_page_images": [
+    {
+      "slot": 6,
+      "type": "conversion_hook",
+      "file": "_brand_hooks/hook_02_one_stop.jpg",
+      "status": "REUSE_FROM_BRAND_HOOKS"
+    },
+    {
+      "slot": 7,
+      "type": "scene_alternative",
+      "file": "images/07_scene_alt.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slot": 8,
+      "type": "scene_backdrop",
+      "file": "images/08_scene_backdrop.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slot": 9,
+      "type": "color_variants",
+      "file": "images/09_color_variants.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slot": 10,
+      "type": "conversion_hook",
+      "file": "_brand_hooks/hook_03_oem_odm.jpg",
+      "status": "REUSE_FROM_BRAND_HOOKS"
+    },
+    {
+      "slot": 11,
+      "type": "certification",
+      "file": "images/11_certification.jpg",
+      "status": "PENDING_OPTIONAL"
+    }
+  ],
+
+  "_image_layout_strategy_v2": {
+    "main_images_5_slots": "白底 + 使用场景 + 材质尺寸 + 卖点 + 钩子",
+    "detail_page_6_slots": "钩子2 + 场景 + 摄影背景 + 配色 + 钩子3 + 认证",
+    "conversion_funnel": {
+      "stage_1_awareness": "Slots 1-4: 建立产品认知",
+      "stage_2_first_cta": "Slot 5 (hook_01): 触发首次询盘",
+      "stage_3_brand_trust": "Slot 6 (hook_02): 放大品牌实力",
+      "stage_4_immersion": "Slots 7-9: 场景代入",
+      "stage_5_premium_cta": "Slot 10 (hook_03): 捕获 OEM 高价值",
+      "stage_6_trust_close": "Slot 11: 合规认证收尾"
+    }
+  },
+
+  "market_validation": {
+    "amazon_asin_data": {
+      "asin": null,
+      "title": null,
+      "price_usd": null,
+      "rating": null,
+      "review_count": null,
+      "key_bullets": [],
+      "fetched_at": null
+    }
+  },
+
+  "publish_workflow": {
+    "current_step": 0,
+    "steps": [
+      "Step 1: Init manifest",
+      "Step 2: White background",
+      "Step 3: Amazon scrape",
+      "Step 4: Bilingual generation",
+      "Step 5: Hooks + profit check + publish"
+    ],
+    "next_action": null
+  }
+}

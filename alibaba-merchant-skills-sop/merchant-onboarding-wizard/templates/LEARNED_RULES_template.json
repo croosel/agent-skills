@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "created_by": "merchant-onboarding-wizard",
+    "created_for": "大勛 (Daxun)",
+    "last_updated": null,
+    "rule_count": 0
+  },
+  "ip_blacklist": {
+    "_description": "永久禁用的 IP / 品牌 / 角色名词",
+    "rules": [],
+    "examples_for_party_decor": [
+      "Disney", "Stitch", "Aurora", "Frozen", "Elsa", "Anna",
+      "Barbie", "Mickey", "Minnie", "Mickey Mouse",
+      "Marvel", "Avengers", "Spider-Man", "Iron Man",
+      "Star Wars", "Pokemon", "Hello Kitty",
+      "Nike", "Adidas", "Gucci", "LV"
+    ]
+  },
+  "image_rules": {
+    "_description": "图片资产的硬性约束",
+    "rules": []
+  },
+  "language_rules": {
+    "_description": "Listing 语言相关的硬性规则",
+    "rules": []
+  },
+  "moq_rules": {
+    "_description": "起订量 / 样品订单相关规则",
+    "rules": []
+  },
+  "profit_rules": {
+    "_description": "利润率 / 定价相关规则",
+    "rules": []
+  },
+  "compliance_rules": {
+    "_description": "合规 / 认证相关规则",
+    "rules": []
+  },
+  "publish_workflow_rules": {
+    "_description": "发品流程相关的全局规则",
+    "default_publish_workflow": null,
+    "rules": []
+  },
+  "user_corrections_log": {
+    "_description": "用户主动纠正后自动学习的规则",
+    "entries": []
+  },
+  "_notes_for_ai": "此规则文件是硬性约束（不可违反）。每次执行任务前必须检查是否违反任何规则。当用户说「不要...」「以后别...」「禁止...」时，自动追加到对应分类的 rules 数组。"
+}

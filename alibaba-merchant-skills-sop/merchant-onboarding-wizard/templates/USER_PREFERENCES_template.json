@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "created_by": "merchant-onboarding-wizard",
+    "created_for": "大勛 (Daxun)",
+    "last_updated": null
+  },
+  "thinking_framework": {
+    "value": "first_principles",
+    "options": ["first_principles", "swot", "data_driven"],
+    "_description": "AI 进行分析时使用的核心思维框架"
+  },
+  "response_language": {
+    "value": "zh-CN_with_en_terms",
+    "options": ["zh-CN_with_en_terms", "zh-CN", "en-US", "bilingual"],
+    "_description": "AI 回复使用的语言。zh-CN_with_en_terms = 中文为主+关键术语英文括号"
+  },
+  "output_format": {
+    "value": "table_first",
+    "priority_order": ["table", "list", "paragraph"],
+    "_description": "数据呈现优先级：表格 > 列表 > 段落"
+  },
+  "report_framework": {
+    "value": "mckinsey_8_pillars",
+    "options": ["mckinsey_8_pillars", "star", "simple_3_parts"],
+    "_description": "重大分析报告的结构框架"
+  },
+  "next_steps_policy": {
+    "value": "always_provide_1_to_3",
+    "options": ["always_provide_1_to_3", "important_tasks_only", "never"],
+    "_description": "是否在每条回复结尾给可执行 Next Steps"
+  },
+  "data_presentation": {
+    "value": "conclusions_with_evidence",
+    "options": ["detailed_with_formulas", "conclusions_with_evidence", "conclusions_only"],
+    "_description": "数字与结论的详细程度"
+  },
+  "risk_communication": {
+    "value": "direct_alerts",
+    "options": ["direct_alerts", "gentle_suggestions", "on_demand_only"],
+    "use_emojis": ["🔴", "🟡", "🟢", "⚠️"],
+    "_description": "风险沟通的直接程度，direct_alerts = 用红黄绿灯标注"
+  },
+  "ai_proactivity": {
+    "value": "high",
+    "options": ["high", "medium", "low"],
+    "behaviors": {
+      "high": ["主动预判", "批量执行", "减少确认", "并行调用工具"],
+      "medium": ["关键节点确认", "单步执行"],
+      "low": ["每步等指令", "不主动建议"]
+    },
+    "_description": "AI 的主动性程度"
+  },
+  "_notes_for_ai": "此偏好在每次会话开始时自动加载。AI 的所有回复风格必须严格遵守。当用户用「以后都...」「我喜欢...」「不要再...」表达偏好时，静默 update 对应字段。"
+}
